@@ -76,8 +76,12 @@ qa.tdd-mocha.javascript/
 │   └── Pessoa.test.js     # Testes unitários
 ├── .github/
 │   └── workflows/
-|       └── main.yml        # arquivo ci
-└── README.md
+│       └── main.yml        # Arquivo de CI
+├── .babelrc                # Configuração do Babel
+├── .gitignore              # Arquivos e pastas a serem ignorados pelo Git
+├── LICENSE                 # Licença do projeto
+├── package.json            # Configurações do projeto e dependências
+└── README.md               # Documentação do projeto
 ```
 
 #### Instalação
