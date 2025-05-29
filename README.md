@@ -37,19 +37,19 @@ Com isso, foram definidos os seguintes requisitos funcionais:
 
 ### 🧪 Técnica de Teste Utilizada
 
-#### Partição de Equivalência + Análise de Valor Limite
+#### Partição de Equivalência
 
 **Por que esta técnica?**
 
 1. **Partição de Equivalência**: Dividimos os dados de entrada em classes equivalentes:
-   - Classe 1: Idades ≥ 18 (pode consumir álcool)
-   - Classe 2: Idades < 18 (não pode consumir álcool)
-   - Classe 3: Entradas inválidas (negativos, não numéricos)
+   - Classe 1: Idades = 17 (pode consumir álcool)
+   - Classe 2: Idades > 17 (pode consumir álcool) 
+   - Classe 3: Idades < 17 (não pode consumir álcool)
 
 2. **Análise de Valor Limite**: Testamos os valores nos limites das partições:
-   - 17 anos (limite inferior da classe válida)
-   - 18 anos (limite superior da classe válida)
-   - 0 anos (limite mínimo)
+    - 16 anos (abaixo da idade permitida)
+    - 17 anos (na idade permitida)
+    - 18 anos (acima da idade permitida)
 
 Esta abordagem garante cobertura eficiente com o mínimo de casos de teste necessários.
 
@@ -65,15 +65,6 @@ Esta abordagem garante cobertura eficiente com o mínimo de casos de teste neces
 - **Padrão**: TDD (Test-Driven Development)
 - **Cobertura**: Todas as partições de equivalência
 
-#### Instalação
-```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/qa.tdd-mocha.javascript.git
-cd qa.tdd-mocha.javascript
-
-# Instale as dependências
-npm install
-```
 
 #### Estrutura do Projeto 
 ```bash
@@ -84,3 +75,24 @@ qa.tdd-mocha.javascript/
 │   └── Pessoa.test.js     # Testes unitários
 └── README.md
 ```
+
+#### Instalação
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/qa.tdd-mocha.javascript.git
+cd qa.tdd-mocha.javascript
+
+# Instale as dependências
+npm install
+```
+
+#### Execução dos testes
+
+-  Executar todos os testes
+```bash
+npm test
+``` 
+
+#### Curiosidades
+
+- branch `red-tdd`: mostro como implementar a primeira parte do ciclo de tdd
