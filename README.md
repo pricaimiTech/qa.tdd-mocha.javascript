@@ -74,13 +74,20 @@ qa.tdd-mocha.javascript/
 │   └── Pessoa.js          # Classe principal
 ├── test/
 │   └── Pessoa.test.js     # Testes unitários
-└── README.md
+├── .github/
+│   └── workflows/
+│       └── main.yml        # Arquivo de CI
+├── .babelrc                # Configuração do Babel
+├── .gitignore              # Arquivos e pastas a serem ignorados pelo Git
+├── LICENSE                 # Licença do projeto
+├── package.json            # Configurações do projeto e dependências
+└── README.md               # Documentação do projeto
 ```
 
 #### Instalação
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/qa.tdd-mocha.javascript.git
+https://github.com/pricaimiTech/qa.tdd-mocha.javascript.git
 cd qa.tdd-mocha.javascript
 
 # Instale as dependências
