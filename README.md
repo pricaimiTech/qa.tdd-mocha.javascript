@@ -1,4 +1,5 @@
 # QA TDD Mocha JavaScript
+[![qa.tdd-mocha-CI](https://github.com/pricaimiTech/qa.tdd-mocha.javascript/actions/workflows/main.yml/badge.svg)](https://github.com/pricaimiTech/qa.tdd-mocha.javascript/actions/workflows/main.yml)
 
 Projeto desenvolvido na prática o conhecimento técnico sobre TDD (Test-Driven Development) na validação de idade para consumo de bebida alcoólica.
 
