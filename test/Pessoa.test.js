@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { Pessoa } from "../src/Pessoa.js";
+import Pessoa from "../src/Pessoa.js";
 
 describe("Validação de idade para consumo de álcool", () => {
   
