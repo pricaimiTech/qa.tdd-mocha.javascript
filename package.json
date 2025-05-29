@@ -1,0 +1,23 @@
+{
+  "name": "qa.tdd-mocha.javascript",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido na prática o conhecimento técnico sobre TDD (Test-Driven Development) na validação de idade para consumo de bebida alcoólica.",
+  "main": "src/Pessoa.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/**/*.test.js --require @babel/register",
+    "test:watch": "npm test -- --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.27.3",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/register": "^7.27.1",
+    "chai": "^5.2.0",
+    "mocha": "^11.5.0"
+  }
+}
