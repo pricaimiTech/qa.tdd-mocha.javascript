@@ -43,13 +43,13 @@ Com isso, foram definidos os seguintes requisitos funcionais:
 **Por que esta técnica?**
 
 1. **Partição de Equivalência**: Dividimos os dados de entrada em classes equivalentes baseados na idade de corte se pode ou não consumir álcool
-   - Classe 1: Idades = 17 (pode consumir álcool)
+   - Classe 1: Idades = 17 (não consumir álcool)
    - Classe 2: Idades > 17 (pode consumir álcool) 
    - Classe 3: Idades < 17 (não pode consumir álcool)
 
 2. **Análise de Valor Limite**: Testamos os valores nos limites das partições apartir da idade de corte de 17 anos.
     - 16 anos (abaixo da idade permitida)
-    - 17 anos (na idade permitida)
+    - 17 anos (abaixo da idade permitida)
     - 18 anos (acima da idade permitida)
 
 Esta abordagem garante cobertura eficiente com o mínimo de casos de teste necessários.
