@@ -56,7 +56,7 @@ Esta abordagem garante cobertura eficiente com o mínimo de casos de teste neces
 ### 🚀 Configuração e Execução
 
 #### Pré-requisitos
-- Node.js 16+ 
+- Node.js 22+ 
 - npm ou yarn
 
 #### Arquitetura de Testes
