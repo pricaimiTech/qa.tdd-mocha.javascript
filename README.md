@@ -37,16 +37,16 @@ Com isso, foram definidos os seguintes requisitos funcionais:
 
 ### 🧪 Técnica de Teste Utilizada
 
-#### Partição de Equivalência
+#### Partição de Equivalência + Análise de Valor Limite
 
 **Por que esta técnica?**
 
-1. **Partição de Equivalência**: Dividimos os dados de entrada em classes equivalentes:
+1. **Partição de Equivalência**: Dividimos os dados de entrada em classes equivalentes baseados na idade de corte se pode ou não consumir álcool
    - Classe 1: Idades = 17 (pode consumir álcool)
    - Classe 2: Idades > 17 (pode consumir álcool) 
    - Classe 3: Idades < 17 (não pode consumir álcool)
 
-2. **Análise de Valor Limite**: Testamos os valores nos limites das partições:
+2. **Análise de Valor Limite**: Testamos os valores nos limites das partições apartir da idade de corte de 17 anos.
     - 16 anos (abaixo da idade permitida)
     - 17 anos (na idade permitida)
     - 18 anos (acima da idade permitida)
@@ -96,3 +96,4 @@ npm test
 #### Curiosidades
 
 - branch `red-tdd`: mostro como implementar a primeira parte do ciclo de tdd
+- branch `green-tdd`: mostra a implementação minima para o nosso teste passar.
