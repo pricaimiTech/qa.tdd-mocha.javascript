@@ -29,7 +29,7 @@ describe("Validação de idade para consumo de álcool", () => {
     });
 
     describe('Validar possíveis erros de inserção de dados inválidos pelo usuário', () => {
-        it('[CT-OO4] - Validar que o sistema não deve aceitar datas negativas', () => {
+        it('[CT-OO4] - Validar que o sistema não deve aceitar idade negativas', () => {
             const idade = -1 
             expect(() => {
                 pessoaMaiorIdade.ehMaiorDeIdade(idade);
