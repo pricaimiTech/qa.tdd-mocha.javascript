@@ -97,3 +97,4 @@ npm test
 
 - branch `red-tdd`: mostro como implementar a primeira parte do ciclo de tdd
 - branch `green-tdd`: mostra a implementação minima para o nosso teste passar.
+- branch `refactor-tdd`: mostra com evoluir a qualidade do código e os testes continuarem passando.
